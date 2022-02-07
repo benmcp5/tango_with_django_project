@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{%loadstaticfiles%}
+{% load staticfiles %}
 
 <html>
   <head lang="en">
@@ -17,7 +17,7 @@
       {% block body_block %}
       {% endblock %}
     </div>
-    <hr />
+    <br/>
     <div>
       <ul>
         <li><a href="{% url 'rango:add_category' %}">Add a New Category</a></li>
